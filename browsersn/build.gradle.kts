@@ -1,7 +1,7 @@
+import java.io.FileInputStream
 import java.util.Properties
 import java.text.SimpleDateFormat
 import java.util.Date
-import java.util.Scanner
 
 val buildTime = SimpleDateFormat("yyyy-MM-dd_HH:mm").format(Date())
 
@@ -20,14 +20,18 @@ fun getGitHash(workingDir: File = File(".")): String? {
     }
 }
 
+fun getProps(file: File): Properties {
+    val props = Properties()
+    props.load(FileInputStream(file))
+    return props
+}
+
+val keystoreProperties = getProps(rootProject.file("keystore_sn.properties"))
+
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.navigationSafeargs)
 }
-
-val keystorePropertiesFile = rootProject.file("keystore.properties")
-val keystoreProperties = Properties()
-keystoreProperties.load(keystorePropertiesFile.inputStream())
 
 android {
 
@@ -63,7 +67,7 @@ android {
     assetPacks.add(":dbsn_ewn_asset")
 
     signingConfigs {
-        create("sqlunet") {
+        create("release") {
             keyAlias = keystoreProperties["keyAlias"].toString()
             keyPassword = keystoreProperties["keyPassword"].toString()
             storeFile = file(keystoreProperties["storeFile"].toString())
@@ -80,11 +84,11 @@ android {
         release {
             isMinifyEnabled = false
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.txt")
-            signingConfig = signingConfigs.getByName("sqlunet")
+            signingConfig = signingConfigs.getByName("release")
             versionNameSuffix = "signed"
         }
         debug {
-            signingConfig = signingConfigs.getByName("sqlunet")
+            signingConfig = signingConfigs.getByName("debug")
         }
     }
 }
