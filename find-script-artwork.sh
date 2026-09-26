@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #
-# Copyright (c) 2026. Bernard Bou <1313ou@gmail.com>
+# Copyright (c) 2026. Bernard Bou
 #
 
 export scripts=`find . -mindepth 2 -not -path '*/artwork-relations/*' -not -path '*/reference/*' -name 'make-artwork.sh'`

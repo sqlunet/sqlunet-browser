@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2026. Bernard Bou <1313ou@gmail.com>
+ * Copyright (c) 2026. Bernard Bou
  */
 
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
