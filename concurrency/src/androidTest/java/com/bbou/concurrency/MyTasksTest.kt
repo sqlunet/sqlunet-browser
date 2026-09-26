@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023. Bernard Bou <1313ou@gmail.com>.
+ * Copyright (c) 2019-2026. Bernard Bou.
  */
 package com.bbou.concurrency
 

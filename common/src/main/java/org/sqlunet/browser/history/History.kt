@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2025. Bernard Bou <1313ou@gmail.com>
+ * Copyright (c) 2026. Bernard Bou <1313ou@gmail.com>
  */
 package org.sqlunet.browser.history
 
@@ -139,7 +139,7 @@ class History(context: Context, mode: Int) {
          */
         @JvmStatic
         fun recordQuery(context: Context, query: String?) {
-            val suggestions = android.provider.SearchRecentSuggestions(context, History.getAuthority(context), SearchRecentSuggestionsProvider.DATABASE_MODE_QUERIES)
+            val suggestions = android.provider.SearchRecentSuggestions(context, getAuthority(context), SearchRecentSuggestionsProvider.DATABASE_MODE_QUERIES)
             suggestions.saveRecentQuery(query, null)
         }
 

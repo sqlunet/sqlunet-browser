@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#
+# Copyright (c) 2026. Bernard Bou <1313ou@gmail.com>
+#
+
 source define_colors.sh
 
 libs="wordNet verbNet propbank frameNet syntagNet bNC"

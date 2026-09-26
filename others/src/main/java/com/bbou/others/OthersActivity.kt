@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2026. Bernard Bou <1313ou@gmail.com>
+ */
+
 package com.bbou.others
 
 import android.app.Activity

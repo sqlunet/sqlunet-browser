@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023. Bernard Bou
+ * Copyright (c) 2026. Bernard Bou <1313ou@gmail.com>
  */
 package org.sqlunet.speak
 
@@ -103,5 +103,4 @@ open class Pronunciation(val ipa: String, variety0: String?) : Comparable<Pronun
             val pronunciations = pronunciations(pronunciationBundle)
             return java.lang.String.join(",", *toStrings(pronunciations!!))
         }
-    }
-}
+   

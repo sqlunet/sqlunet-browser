@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!--
-  ~ Copyright (c) 2023. Bernard Bou
+  ~ Copyright (c) 2026. Bernard Bou <1313ou@gmail.com>
   -->
 
 <relation name="Agent" id="role_agent" type="lexical" v="true" n="true">

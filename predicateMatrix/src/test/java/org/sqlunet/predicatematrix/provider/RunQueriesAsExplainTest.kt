@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023. Bernard Bou
+ * Copyright (c) 2019-2026. Bernard Bou
  */
 package org.sqlunet.predicatematrix.provider
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><!--
-  ~ Copyright (c) 2023. Bernard Bou
+  ~ Copyright (c) 2026. Bernard Bou <1313ou@gmail.com>
   -->
 
 <!-- BNC to HTML Client-side 2015/05/15 (C) 2015 Author: Bernard Bou -->

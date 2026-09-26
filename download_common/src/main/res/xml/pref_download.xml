@@ -1,3 +1,7 @@
+<!--
+  ~ Copyright (c) 2026. Bernard Bou <1313ou@gmail.com>
+  -->
+
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:app="http://schemas.android.com/apk/res-auto"
 	app:title="@string/pref_header_download">

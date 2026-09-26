@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2026. Bernard Bou <1313ou@gmail.com>
+  -->
+
 <relations>
 
 <!--
-  ~ Copyright (c) 2023. Bernard Bou
+  ~ Copyright (c) 2019-2026. Bernard Bou
   -->
 
 <relation name="Hypernym" id="hypernym" type="semantic" inverse="hyponym" n="true" v="true">
@@ -109,7 +113,7 @@
 </relation>
 
 <!--
-  ~ Copyright (c) 2023. Bernard Bou
+  ~ Copyright (c) 2019-2026. Bernard Bou
   -->
 
 <relation name="Hyponym" id="hyponym" type="semantic" inverse="hypernym" n="true" v="true">
@@ -241,7 +245,7 @@
 
 
 <!--
-  ~ Copyright (c) 2023. Bernard Bou
+  ~ Copyright (c) 2019-2026. Bernard Bou
   -->
 
 <relation name="Holonym" id="holonym" type="semantic" inverse="meronym" n="true">
@@ -350,7 +354,7 @@
 </relation>
 
 <!--
-  ~ Copyright (c) 2023. Bernard Bou
+  ~ Copyright (c) 2019-2026. Bernard Bou
   -->
 
 <relation name="Meronym" id="meronym" type="semantic" inverse="holonym" n="true">
@@ -459,7 +463,7 @@
 </relation>
 
 <!--
-  ~ Copyright (c) 2023. Bernard Bou
+  ~ Copyright (c) 2019-2026. Bernard Bou
   -->
 
 <relation name="Direct antonym" id="antonym" type="lexical" inverse="antonym" symmetric="true" n="true" v="true" a="true" r="true">
@@ -620,7 +624,7 @@
 
 
 <!--
-  ~ Copyright (c) 2023. Bernard Bou
+  ~ Copyright (c) 2019-2026. Bernard Bou
   -->
 
 <relation name="Causes" id="causes" type="semantic" inverse="caused" v="true">
@@ -697,7 +701,7 @@
 
 
 <!--
-  ~ Copyright (c) 2023. Bernard Bou
+  ~ Copyright (c) 2019-2026. Bernard Bou
   -->
 
 <relation name="Caused" id="caused" type="semantic" inverse="causes" v="true">
@@ -774,7 +778,7 @@
 
 
 <!--
-  ~ Copyright (c) 2023. Bernard Bou
+  ~ Copyright (c) 2019-2026. Bernard Bou
   -->
 
 <relation name="Entails" id="entails" type="semantic" inverse="entailed" v="true">
@@ -886,7 +890,7 @@
 </relation>
 
 <!--
-  ~ Copyright (c) 2023. Bernard Bou
+  ~ Copyright (c) 2019-2026. Bernard Bou
   -->
 
 <relation name="Is entailed by" id="entailed" type="semantic" inverse="entails" v="true">
@@ -1000,7 +1004,7 @@
 </relation>
 
 <!--
-  ~ Copyright (c) 2023. Bernard Bou
+  ~ Copyright (c) 2019-2026. Bernard Bou
   -->
 
 <relation name="Verb Group" id="verbgroup" type="semantic" inverse="verbgroup" symmetric="true" v="true">
@@ -1056,7 +1060,7 @@
 </relation>
 
 <!--
-  ~ Copyright (c) 2023. Bernard Bou
+  ~ Copyright (c) 2019-2026. Bernard Bou
   -->
 
 <relation name="Similar" id="similar" type="semantic" inverse="similar" symmetric="true" a="true" s="true">
@@ -1148,7 +1152,7 @@
 
 
 <!--
-  ~ Copyright (c) 2023. Bernard Bou
+  ~ Copyright (c) 2019-2026. Bernard Bou
   -->
 
 <relation name="Attribute" id="attribute" type="semantic" inverse="attribute" symmetric="true" n="true" a="true">
@@ -1258,7 +1262,7 @@
 
 
 <!--
-  ~ Copyright (c) 2023. Bernard Bou
+  ~ Copyright (c) 2019-2026. Bernard Bou
   -->
 
 <relation name="Derivation" id="derivation" type="lexical" inverse="derivation" symmetric="true" n="true" v="true" a="true" r="true" s="true">
@@ -1322,7 +1326,7 @@
 
 
 <!--
-  ~ Copyright (c) 2023. Bernard Bou
+  ~ Copyright (c) 2019-2026. Bernard Bou
   -->
 
 <relation name="Derived from adjective" id="derivation_adj" type="lexical" r="true">
@@ -1371,7 +1375,7 @@
 
 
 <!--
-  ~ Copyright (c) 2023. Bernard Bou
+  ~ Copyright (c) 2019-2026. Bernard Bou
   -->
 
 <relation name="Participle" id="participle" type="lexical" v="true">
@@ -1424,7 +1428,7 @@
 
 
 <!--
-  ~ Copyright (c) 2023. Bernard Bou
+  ~ Copyright (c) 2019-2026. Bernard Bou
   -->
 
 <relation name="Pertainym" id="pertainym" type="lexical" a="true" r="true">
@@ -1513,7 +1517,7 @@
 
 
 <!--
-  ~ Copyright (c) 2023. Bernard Bou
+  ~ Copyright (c) 2019-2026. Bernard Bou
   -->
 
 <relation name="Also See" id="also" type="both" inverse="also" symmetric="true" v="true" a="true">
@@ -1603,7 +1607,7 @@
 
 
 <!--
-  ~ Copyright (c) 2023. Bernard Bou
+  ~ Copyright (c) 2019-2026. Bernard Bou
   -->
 
 <relation name="Domain" id="domain" type="both" inverse="hasdomain" n="true" v="true" a="true" r="true" s="true">
@@ -1725,7 +1729,7 @@
 
 
 <!--
-  ~ Copyright (c) 2023. Bernard Bou
+  ~ Copyright (c) 2019-2026. Bernard Bou
   -->
 
 <relation name="Has domain" id="hasdomain" type="both" inverse="domain" n="true" v="true" a="true" r="true" s="true">

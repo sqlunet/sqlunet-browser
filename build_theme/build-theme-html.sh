@@ -1,5 +1,9 @@
 #!/usr/bin/bash
 
+#
+# Copyright (c) 2026. Bernard Bou <1313ou@gmail.com>
+#
+
 m="$1"
 if [ -z "$m" ]; then
         echo "Module needed"

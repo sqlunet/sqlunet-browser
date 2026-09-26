@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2026. Bernard Bou <1313ou@gmail.com>
+ */
+
 plugins {
     alias(libs.plugins.androidLibrary)
     alias(libs.plugins.navigationSafeargs) apply false

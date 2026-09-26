@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+<!--
+  ~ Copyright (c) 2026. Bernard Bou <1313ou@gmail.com>
+  -->
+
 <resources>
 	<integer name='size_db_working_total'>106622976</integer>
 	<integer name='size_searchtext'>34938880</integer>

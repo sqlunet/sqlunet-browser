@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023. Bernard Bou
+ * Copyright (c) 2026. Bernard Bou <1313ou@gmail.com>
  */
 package org.sqlunet.model
 
@@ -92,7 +92,7 @@ object TreeFactory {
      * @param intent      intent
      * @return created node
      */
-    fun makeIntentNode(value: CharSequence, @Suppress("unused") @DrawableRes icon: Int, breakExpand: Boolean, intent: Intent): TreeNode {
+    fun makeIntentNode(value: CharSequence, @DrawableRes icon: Int, breakExpand: Boolean, intent: Intent): TreeNode {
         return TreeNode(value, null, arrayOf(intent), IntentController(breakExpand), false)
     }
 

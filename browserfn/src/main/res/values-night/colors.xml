@@ -1,4 +1,8 @@
 
+<!--
+  ~ Copyright (c) 2026. Bernard Bou <1313ou@gmail.com>
+  -->
+
 <!-- dark -->
 <resources>
 	<color name="md_theme_custom">#6D665A</color>

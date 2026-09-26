@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2026. Bernard Bou <1313ou@gmail.com>
+ */
+
 import java.io.FileInputStream
 import java.util.Properties
 import java.text.SimpleDateFormat

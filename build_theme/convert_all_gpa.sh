@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+#
+# Copyright (c) 2026. Bernard Bou <1313ou@gmail.com>
+#
+
 for f in *.gpa; do
         d=$(dirname "$filepath")
         b="${f%.*}"
