@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #
-# Copyright (c) 2026. Bernard Bou <1313ou@gmail.com>
+# Copyright (c) 2026. Bernard Bou
 #
 
 BT=/opt/androidsdk/bundle-tool/bundletool-all-1.4.0.jar

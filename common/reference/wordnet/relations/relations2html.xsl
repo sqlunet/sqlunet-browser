@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!--
-  ~ Copyright (c) 2026. Bernard Bou <1313ou@gmail.com>
+  ~ Copyright (c) 2026. Bernard Bou
   -->
 
 <!-- RELATIONS 2 HTML - (C) 2020 Author: Bernard Bou -->

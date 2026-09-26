@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!--
-  ~ Copyright (c) 2026. Bernard Bou <1313ou@gmail.com>
+  ~ Copyright (c) 2026. Bernard Bou
   -->
 
 <relation name="Derived from adjective" id="derivation_adj" type="lexical" r="true">
