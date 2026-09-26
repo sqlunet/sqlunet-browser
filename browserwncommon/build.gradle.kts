@@ -1,13 +1,8 @@
-import java.util.Properties
 
 plugins {
     alias(libs.plugins.androidLibrary)
     alias(libs.plugins.navigationSafeargs) apply false
  }
-
-val keystorePropertiesFile = rootProject.file("keystore.properties")
-val keystoreProperties = Properties()
-keystoreProperties.load(keystorePropertiesFile.inputStream())
 
 android {
 
