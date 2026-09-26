@@ -103,4 +103,5 @@ open class Pronunciation(val ipa: String, variety0: String?) : Comparable<Pronun
             val pronunciations = pronunciations(pronunciationBundle)
             return java.lang.String.join(",", *toStrings(pronunciations!!))
         }
-   
+    }
+}   
